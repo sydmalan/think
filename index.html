@@ -6,25 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="browser icon" href="images/favicon.ico">
     <title>Think</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="content">
-    <div>
-        <img id="logo" src="images/think_logo.png" alt="A logo for Think custom t-shirts."
+    <div id="banner">
+        <p>Visit us in the University Store Monday through Friday, 10-5!</p>
+    </div>
+    <div id="nav_header">
+        <img id="logo" src="images/think_logo.png" alt="A logo for Think custom t-shirts.">
+        <input type="search" placeholder="Search">
+        <button id="search_img" onclick="window.location.assign('test.html')"><img src="images/search_icon.png" alt="User Profile"></button>
+        <!-- <form>
+            <input type="search" placeholder="Search">
+            <button id="search_img" onclick="window.location.assign('test.html')"><img src="images/search_icon.png" alt="User Profile"></button>
+        </form> -->
+        <!-- <img id="search_img" src="images/search_white.png" alt="A logo for a search icon.">
+        <img id="profile" src="images/profile_white.png" alt="A logo for the user's account.">
+        <img id="shopping_cart" src="images/cart_white.png" alt="A logo for the shopping cart."> -->
+        <!-- <button><img src="images/search_white.png"></button> -->
+        <!-- <input type="image" onclick="sydmalan.github.io/wdd230/" src="images/search_white.png" alt="Submit" width="48" height="48"> -->
+        <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/profile_white.png" alt="User Profile"></button>
+        <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/cart_white.png" alt="Shopping Cart"></button>
     </div>
     <header>
-
-
-
+        <ul>
+            <li> <a href="#">Explore</a></li>
+            <li> <a href="#">Shirts</a></li>
+            <li> <a href="#">Designs</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Questions</a></li>
+        </ul>
     </header>
 
-
-
     <h1>You Think It We Ink It</h1>
+    <div>
+        <h2>Join The Email List</h2>
+        <!-- <form method="get" action="thankyou.html"> -->
+        <form method="get">
+            <label for="fname">First Name:</label>
+            <input type="text" name="firstname" id="fname" required> 
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lastname" id="lname" required> 
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com" required>
+            <!-- <label for="phone">Mobile Number:</label>
+            <input type="tel" name="cell" id="phone" required> -->
+            <input id="submit" type="submit" value="Join"> 
+        </form>
+    </div>
+    <div>
+        <a href="#"><img class="shirts" src="images/men2.jpeg" alt="Man in a grey shirt"></a>
+        <a href="#"><img class="shirts" src="images/women.jpeg" alt="Woman in a white shirt"></a>
+        <a href="#"><img class="shirts" src="images/youth2.jpeg" alt="Youth in a blue shirt"></a>
+        <a href="#"><img class="shirts" src="images/infant2.jpeg" alt="Man in a blue hoodie"></a>
+    </div>
 
 
 
     <footer>
         <!-- socials and links -->
+        <a href="#"><img class="social" src="images/facebook_logo.png" alt="Facebook logo in white"></a>
+        <a href="#"><img class="social" src="images/insta_logo.png" alt="Instagram logo in white"></a>
+
+        
     </footer>
 </body>
 </html>
