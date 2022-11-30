@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&family=Prata&display=swap');
+
+body{
+    background-color: rgb(179, 209, 204);
+    text-align:center;
+}
+#content{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
+    /* display:grid;
+    grid-template-columns: 1fr; */
+}
+
+#logo{
+    width:200px;
+    margin-top: -15px;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 1em;
+    line-height: 23px;
+}
+
+nav ul{
+    padding-inline-start: 0;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: rgb(66, 91, 87);
+    border-radius: 6px;
+    padding:20px 10px 20px 10px;
+
+}
+
+nav li{
+    font-family: Gothic, sans-serif;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 1.2em;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav li:hover{
+    background-color:#e4b89b;
+    border-radius: 6px;
+    padding:0 15px 0 15px;
+}
+
+
+nav a:active{
+    color:black;
+}
+
+h2{
+    font-family: Prata, serif;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: Gothic, sans-serif;
+    font-weight: 400;
+}
+
+#gothic{
+    font-family: Gothic, sans-serif;
+    font-weight: 400; 
+}
+
+img{
+    padding: 20px;
+    width: 250px;
+
+}
+
+ol li{
+    text-align: center;
+    list-style-position: inside;
+    font-family: Gothic, sans-serif;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#purpose{
+    width:80%;
+    margin: 0 auto;
+    line-height: 23px;
+}
+
+
+#primcolor{
+    background-color: #96BBD8;
+    padding:10px;
+
+}
+#seccolor{
+    background-color: #FFF0D8;
+    padding:10px;
+}
+#acc1color{
+    background-color: #000000;
+    color:white;
+    padding:10px;
+}
+#acc2color{
+    background-color: #D86B56;
+    padding:10px;
+}
+#acc3color{
+    background-color: #733A32;
+    padding:10px;
+    color:white;
+}
+
+
+
+#site_info{
+    margin-bottom: 85px;
+}
+#target-audience{
+    margin-bottom: 85px;
+}
+#color-scheme{
+    margin-bottom: 85px;
+}
+#typography{
+    margin-bottom: 85px;
+}
+
+.small{
+    font-size: .9em;
+    margin-top: 40px;
+    padding-bottom:20px;
+}
+
+
+
+footer {
+    background-color: rgb(66, 91, 87);
+    margin: 0 auto;
+    width: 90%;
+    padding: 5px 0 5px 0;
+    border-radius: 6px;
+    line-height: 5px;
+    font-weight: 600;
+    font-size: 1em;
+    color:white;
+}
+
+
+
+/* Medium Screen */
+@media screen and (min-width: 700px){
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .3fr .3fr;
+        width:90%;
+        margin: 0 auto;
+    }
+
+    #buswomen{
+        display:inline;
+        margin: 0 auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #buswomenpara{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    #dad{
+        display:inline;
+        margin: 0 auto;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #dadpara{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+}
