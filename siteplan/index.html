@@ -4,70 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="main.css" rel="stylesheet"> -->
+    <link href="main.css" rel="stylesheet">
+    <link rel="browser icon" href="../images/favicon.ico">
     <title>Think Site Plan</title>
 </head>
 <body id="top">
     <div id="content">
         <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#site_info">Home</a>
-                    </li>
-                    <li>
-                        <a href="#target-audience">Target Audience</a>
-                    </li>
-                    <li>
-                        <a href="#color-scheme">Color Scheme</a>
-                    </li>
-                    <li>
-                        <a href="#typography">Typography</a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#site_info">Site Purpose</a>
+                        </li>
+                        <li>
+                            <a href="#target-audience">Target Audience</a>
+                        </li>
+                        <li>
+                            <a href="#">Site Map</a>
+                        </li>
+                        <li>
+                            <a href="#color-scheme">Color Scheme</a>
+                        </li>
+                        <li>
+                            <a href="#typography">Typography</a>
+                        </li>
+                        <li>
+                            <a href="#">Wireframes</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
 
         </header>
         <main>
             <div id="site_info">
-                <h1>Ogden City Chamber of Commerce</h1>
+                <h1>Think Custom T-Shirts</h1>
                 <!-- Site Purpose -->
                 <h3>Site Purpose</h3>
-                <p id="purpose">The Ogden City Chamber of Commerce page will be a resource to all the new and existing businesses of Ogden, Utah. It will provide resources for businesses, such as the ability to connect and network with other owners. Another goal of the site is to help businesses develop strong connections with the public, advertise information, and create exposure. It will benefit those who live and shop in the community and will help it grow. </p>
-                <!-- Domain Name --> 
-                <h3>Available Domain Name</h3>
-                <p>ogdenutchamber.com</p>
-                <h3>Logo</h3>
-                <img id="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name.">
+                <p id="purpose"></p>
+                <!-- <h3>Logo</h3>
+                <img id="logo" src="images/ogdenlogo.png" alt="A logo for Ogden City, UT. It has mountains and their name."> -->
             </div>
+
             <div id="target-audience">
                 <h2>Target Audience</h2>
                 <!-- target audience description -->
                 <!-- two personas -->
-                <h3>Personas</h3>
+                <!-- <h3>Personas</h3>
                 <p>Our target audience is the businesses owners of Ogden and the residents who shop and support those businesses.</p>
                 <div id="grid">
                     <img id="buswomen" src="images/buswomen.jpg" alt="A women folding her arms with long hair and glasses.">
                     <p id="buswomenpara">Persona 1 just graduated from Weber State University and wants to create a new local business. She wants help with knowing how to get started and to connect with other local businesses.</p>
                     <img id="dad" src="images/dad.jpg" alt="A man with glasses smiling outside.">
                     <p id="dadpara">Personal 2 is a stay at home dad and wants to know about any deals or events that might be occurring. He would like to find ways to support those in his community.</p>
-                </div>
-
-
-                <!-- at least five scenarios -->
-                <h3>Scenarios</h3>
-                <ol>
-                    <li>What licensing and/or registration do I need to start a business in Ogden?</li>
-                    <li>What events are occurring and when? (ex. When’s the farmers market?)</li>
-                    <li>How do I network with other businesses around me? </li>
-                    <li>What are the top 10 rated business I should visit if I’m new to the area? </li>
-                    <li>If I am planning an event, what businesses can I use for resources?</li>
-                </ol>
-                <a href="#top">Back to Top</a>
+                </div> -->
+                <!-- <a href="#top">Back to Top</a> -->
             </div>
+
+            <div id="site_map">
+                <h2>Site Map</h2>
+            </div>
+
             <div id="color-scheme">
                 <h2>Color Scheme</h2>
-                <h3 id="primcolor">Primary Color</h3>
+                <h3>Primary Colors</h3>
+                <div class="box blue">
+                   <h4 id="primcolor1">Primary Colors: #1CA3DB</h4> 
+                </div>
+                <div class="box pink">
+                    <h4 id="primcolor2">Primary Colors: #E81583</h4>
+                </div>
+                <div class="box yellow">
+                    <h4 id="primcolor3">Primary Colors: #FBDD00</h4>
+                </div>
+                <div class="box white">
+                    <h4 id="primcolor4">Primary Colors: #FFFFFF</h4> 
+                </div>
+                <div class="box black">
+                    <h4 id="primcolor5">Primary Colors: #231F20</h4>
+                </div>
+                
+                <h3>Accent Colors</h3>
+                <div class="box navy">
+                    <h4 id="accentcolor1">Accent Colors: #0F3C5E</h4>
+                </div>
+                <div class="box purple">
+                    <h4 id="accentcolor2">Accent Colors: #A63C96</h4>
+                </div>
+                <div class="box orange">
+                    <h4 id="accentcolor3">Accent Colors: #F48342</h4>
+                </div>
+                <div class="box grey">
+                    <h4 id="accentcolor4">Accent Colors: #565656</h4>
+                </div>
+
+                <!-- <a href="#top">Back to Top</a> -->
+                <!-- <h3 id="primcolor">Primary Color</h3>
                 <p>#96BBD8 - This will be used color blocking and the background of different elements.</p>
                 <h3 id="seccolor">Secondary Color</h3>
                 <p>#FFF0D8 - This will be used for the background.</p>
@@ -76,27 +109,36 @@
                 <h3 id="acc2color">Accent Color</h3>
                 <p>#D86B56 - This will be used for any contrasting details, such as lines or subheadings.</p>
                 <h3 id="acc3color">Accent Color</h3>
-                <p>#733A32 - This is will be used for headings and other bold text.</p>
+                <p>#733A32 - This is will be used for headings and other bold text.</p> -->
                 <!-- list the colors -->
                 <!-- reference the elements/content where the colors will apply -->
-                <a href="#top">Back to Top</a>
             </div>
+            <a class="top" href="#top">Back to Top</a>
+
             <div id="typography">
                 <h2>Typography</h2>
+                <h3 id="heading">Alvania</h3>
+                <h3 id="sub_heading">Raleway</h3>
+                <h3 id="body_copy">Asap Condensed</h3>
                 <!-- reference the elements/content there type choices will apply -->
-                <h3>Prata</h3>
+                <!-- <h3>Prata</h3>
                 <p>This font will be used for all titles and headers.</p>
                 <h3 id="gothic">Gothic</h3>
                 <p>This font will be used for the body copy and captions.</p>
-                <p class="small">Both fonts come from Google Fonts.</p>
-                <a href="#top">Back to Top</a>
+                <p class="small">Both fonts come from Google Fonts.</p> -->
+                <!-- <a href="#top">Back to Top</a> -->
             </div>
+
+            <div id="wireframe">
+                <h2>Wireframe Sketches</h2>
+            </div>
+
         </main>
         <footer>
             <p class="year_name">&copy; <span class="year"></span> | Sydnee Malan </p>
-            <p class="updated_info">Last Updated: <span class="updated"></span></p>
+            <!-- <p class="updated_info">Last Updated: <span class="updated"></span></p> -->
         </footer>
-        <script src="../scripts/main.js"></script>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
