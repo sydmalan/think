@@ -325,7 +325,6 @@ input[type='submit']{
     margin-top: 10px;
     margin-bottom: 120px;
     gap:30px;
-
 }
 
 #1{
@@ -419,9 +418,28 @@ input[type='submit']{
     
 }
 
+/* FAQ */
+#faq_content{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
+#faq_content h2{
+    margin-top: 40px;
+    font-weight: 500;
+}
+#faq_content p{
+    margin-top: -10px;
+    font-size: 18px;
+    line-height: 30px;
+}
 
 
-
+/* PRICING */
+#ink_price{
+    max-width: 300px;
+}
 
 
 
