@@ -2,7 +2,7 @@
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
-  }
+}
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(e) {
@@ -12,4 +12,10 @@ function myFunction() {
         myDropdown.classList.remove('show');
       }
     }
-  }
+}
+
+//shows the year for the copyright 
+let date = new Date();
+let year = date.getFullYear();
+
+document.querySelector('.year').textContent = year;

@@ -11,28 +11,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="content">
-    <div id="banner">
+    <!-- <div id="banner_info">
         <p>Visit us in the University Store Monday through Friday, 10-5!</p>
-    </div>
+    </div> -->
     <div id="nav_header">
-        <img id="logo" src="images/think_logo.png" alt="A logo for Think custom t-shirts.">
-        <input type="search" placeholder="Search">
-        <button id="search_img" onclick="window.location.assign('test.html')"><img src="images/search_icon.png" alt="User Profile"></button>
-        <!-- <form>
-            <input type="search" placeholder="Search">
-            <button id="search_img" onclick="window.location.assign('test.html')"><img src="images/search_icon.png" alt="User Profile"></button>
-        </form> -->
-        <!-- <img id="search_img" src="images/search_white.png" alt="A logo for a search icon.">
-        <img id="profile" src="images/profile_white.png" alt="A logo for the user's account.">
-        <img id="shopping_cart" src="images/cart_white.png" alt="A logo for the shopping cart."> -->
-        <!-- <button><img src="images/search_white.png"></button> -->
-        <!-- <input type="image" onclick="sydmalan.github.io/wdd230/" src="images/search_white.png" alt="Submit" width="48" height="48"> -->
-        <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/profile_white.png" alt="User Profile"></button>
-        <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/cart_white.png" alt="Shopping Cart"></button>
+        <div id="nav_info">
+            <img id="logo" src="images/think_logo.png" alt="A logo for Think custom t-shirts.">
+                <input class="mainLoginInput" type="search" placeholder="&#61442;">
+                <!-- <button id="search_img" onclick="window.location.assign('test.html')"><img src="images/search_icon.png" alt="User Profile"></button> -->
+
+                <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/profile_white.png" alt="User Profile"></button>
+                <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/cart_white.png" alt="Shopping Cart"></button>
+        </div>
     </div>
     <header>
         <div class="navbar">
-            <a href="#">Examples</a>
+            <a href="https://sydmalan.github.io/think/examples.html">Examples</a>
             <div class="dropdown">
             <button class="dropbtn" onclick="myFunction()">Products
               <i class="fa fa-caret-down"></i>
@@ -60,68 +54,168 @@
         <img id="banner_img" src="images/banner2.png" alt="A banner for Think with a girl and a description of the site.">
 
         <!-- <p>Think is a customizable t-shirt shop located in the University Store. We serve students, faculty, community and offer services that are completely customizable to fit any personality. Think is great for sport teams, family reunions, class projects, gifts, or just for fun!</p> -->
-        <div>
-            <h2>Join The Email List</h2>
-            <!-- <form method="get" action="thankyou.html"> -->
-            <form method="get">
-                <label for="fname">*First Name:</label>
-                <input type="text" name="firstname" id="fname" required> 
-                <label for="lname">*Last Name:</label>
-                <input type="text" name="lastname" id="lname" required> 
-                <label for="email">*Email:</label>
-                <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                <label for="inumber">I-Number:</label>
-                <input type="text" name="inumber" id="inumber">
-                <!-- <label for="phone">Mobile Number:</label>
-                <input type="tel" name="cell" id="phone" required> -->
-                <input id="submit" type="submit" value="Join"> 
-            </form>
-        </div>
-        <div>
-            <a href="#"><img class="shirts" src="images/men2_web.jpg" alt="Man in a grey shirt"></a>
-            <a href="#"><img class="shirts" src="images/women_web.jpg" alt="Woman in a white shirt"></a>
-            <a href="#"><img class="shirts" src="images/youth2_web.jpg" alt="Youth in a blue shirt"></a>
-            <a href="#"><img class="shirts" src="images/infant2_web.jpg" alt="Man in a blue hoodie"></a>
-        </div>
-        <div>
-            <h3>1</h3>
-            <p>step one</p>
-            <h3>2</h3>
-            <p>step two</p>
-            <h3>3</h3>
-            <p>step three</p>
-            <h3>4</h3>
-            <p>step four</p>
-        </div>
+        <div id="middle_cont">
+            <div id="join">
+                <!-- <form method="get" action="thankyou.html"> -->
+                <form method="get">
+                    <h1>Join Our Email List!</h1>
+                    <p>*Required Fields </p>
+                    <label for="fname">*First Name </label>
+                    <input type="text" name="firstname" id="fname" required> 
+                    <label for="lname">*Last Name </label>
+                    <input type="text" name="lastname" id="lname" required> 
+                    <label for="email">*Email </label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                    <label for="inumber">I-Number </label>
+                    <input type="text" name="inumber" id="inumber">
+                    <!-- <label for="phone">Mobile Number:</label>
+                    <input type="tel" name="cell" id="phone" required> -->
+                    <input id="submit" type="submit" value="Join"> 
+                </form>
 
-        <div>
-            <h2>Questions? Email us at thinkbyui@gmail.com or call at (208) 496-3412</h2>
+                <div class="box hours">
+                    <ul id="box_info">
+                        <li>Come visit us in store!</li>
+                        <li>Located inside the University Store</li>
+                        <li>Hours: 10:00 am - 5:00 pm Mon - Fri</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="content_img">
+                <img src='image1.jpg' width='100%' height='100%'>
+                <div>Image 1 Text</div>
+             </div> -->
+
+            <div id="t_shirt">
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/men2_color.jpg" alt="Man in a grey shirt"></a>
+                    <div>Unisex Shirts</div>
+                </div>
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/women_color.jpg" alt="Woman in a white shirt"></a>
+                    <div>Women Shirts</div>
+                </div>
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/youth2_color.jpg" alt="Youth in a blue shirt"></a>
+                    <div>Youth Shirts</div>
+                </div>
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/infant2_color.jpg" alt="Child in a blue hoodie"></a>
+                    <div>Toddler Shirts</div>
+                </div>
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/onesie2_color.jpg" alt="A white onesie"></a>
+                    <div>Infant Onesies</div>
+                </div>
+                <div class="content_img">
+                    <a href="#"><img class="shirts" src="images/sweatshirt_color.jpg" alt="Women in a white hoodie"></a>
+                    <div>Sweatshirts</div>
+                </div>
+ 
+                <!--<a href="#"><img class="shirts" src="images/men2_color.jpg" alt="Man in a grey shirt"></a>
+                <a href="#"><img class="shirts" src="images/women_color.jpg" alt="Woman in a white shirt"></a>
+                <a href="#"><img class="shirts" src="images/youth2_color.jpg" alt="Youth in a blue shirt"></a>
+                <a href="#"><img class="shirts" src="images/infant2_color.jpg" alt="Child in a blue hoodie"></a>
+                <a href="#"><img class="shirts" src="images/onesie2_color.jpg" alt="A white onesie"></a>
+                <a href="#"><img class="shirts" src="images/sweatshirt_color.jpg" alt="Women in a white hoodie"></a> -->
+            </div>
         </div>
+        <div id="steps">
+            <div id="steps_1">
+                <div id="1" class="flex-container">
+                    <div class="flex-child1">
+                        <img class="num" src="images/1.png" alt="The number 1 for the step process.">
+                    </div>
+                    <div class="flex-child2">
+                        <h4>Let's Talk Shirts</h4>
+                        <p>Start your order by picking what shirt size, color, and quantity you want. And if you don't want a shirt, we have many products you can customize!</p>
+                    </div>
+                </div>
+
+                <div id="3" class="flex-container">
+                    <div class="flex-child1">
+                        <img class="num" src="images/3.png" alt="The number 1 for the step process.">
+                    </div>
+                    <div class="flex-child2">
+                        <h4>Send Us The Design</h4>
+                        <p>Now it's time for you to send in the design! You can do that right here on our website, email it to us, or bring it in person on a flash drive.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="steps_2">
+                <div id="2" class="flex-container">
+                    <div class="flex-child1">
+                        <img class="num" src="images/2.png" alt="The number 1 for the step process.">
+                    </div>
+                    <div class="flex-child2">
+                        <h4>Figure Out The Details</h4>
+                        <p>The next step is to pick how big you want your graphic to be. Think about if it'll will be a pocket, on the front, the back, or both.</p>    
+                    </div>
+                </div>
+
+                <div id="4" class="flex-container">
+                    <div class="flex-child1">
+                        <img class="num" src="images/4.png" alt="The number 1 for the step process.">
+                    </div>
+                    <div class="flex-child2">
+                        <h4>Pick The Timeline</h4>
+                        <p>Lastly, we will figure out a good due date with you! Then once the order is done, we'll call you to come pick it up!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="questions">
+            <h2>Questions? Email us at thinkbyui@gmail.com or call at (208) 496-3412</h2>
+        </div> -->
     </main>
 
     <footer>
+        <div id="footer_grid">
         <!-- socials and links -->
-        <h4>Contact Us</h4>
-        <a href="byuistore.com">University Store</a>
-        <a href="https://www.byuistore.com/store-hours">Store Hours</a>
-        <a href="https://www.byuistore.com/location">Location</a>
-        <a href="https://www.byuistore.com/contact-us">Contact Us</a>
+            <div id="contact_us">
+                <ul>
+                    <li class="main_bullet">Contact Us</li>
+                    <li><a href="byuistore.com">University Store</a></li>
+                    <li><a href="https://www.byuistore.com/store-hours">Store Hours</a></li>
+                    <li><a href="https://www.byuistore.com/location">Location</a></li>
+                    <li><a href="https://www.byuistore.com/contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div id="cust_service">
+                <ul>
+                    <li class="main_bullet">Customer Service</li>
+                    <li><a href="https://www.byuistore.com/shipping-times">Shipping</a></li>
+                    <li><a href="https://www.byuistore.com/returns-refunds">Returns & Refunds</a></li>
+                    <li><a href="https://www.byuistore.com/sca-dev-2020-2-0/checkout.ssp?is=login&login=T&origin=customercenter#login-register">Receipts</a></li>
+                </ul>
+            </div>
 
-        <h4>Customer Service</h4>
-        <a href="https://www.byuistore.com/shipping-times">Shipping</a>
-        <a href="https://www.byuistore.com/returns-refunds">Returns & Refunds</a>
-        <a href="https://www.byuistore.com/sca-dev-2020-2-0/checkout.ssp?is=login&login=T&origin=customercenter#login-register">Receipts</a>
-    
-        <h4>Other</h4>
-        <a href="https://www.byuistore.com/sales-events">Sales & Events</a>
-        <a href="https://www.byuistore.com/student-employment">Student Employment</a>
-        <a href="https://www.byuistore.com/policies">Policies</a>
-    
-        
-        <h4>Stay Connected</h4>
-        <a href="https://www.facebook.com/BYUISTORE/"><img class="social" src="images/facebook_logo.png" alt="Facebook logo in white"></a>
-        <a href="https://www.instagram.com/byuistore/"><img class="social" src="images/insta_logo.png" alt="Instagram logo in white"></a>
+            <div id="other">
+                <ul>
+                    <li class="main_bullet">Other</li>
+                    <li><a href="https://www.byuistore.com/sales-events">Sales & Events</a></li>
+                    <li><a href="https://www.byuistore.com/student-employment">Student Employment</a></li>
+                    <li><a href="https://www.byuistore.com/policies">Policies</a></li>
+                    <li><a href="https://sydmalan.github.io/think/siteplan/index.html">Site Plan</a></li>
+                </ul>
+            </div>
 
+            <div id="stay_connected">
+                <ul>
+                    <li class="main_bullet">Stay Connected</li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.facebook.com/BYUISTORE/"><img class="social" src="images/facebook_logo.png" alt="Facebook logo in white"></a></li>
+                    <li><a href="https://www.instagram.com/byuistore/"><img class="social" src="images/insta_logo.png" alt="Instagram logo in white"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer_info">
+            <p class="year_name">&copy;<span class="year"></span> Sydnee Malan</p>      
+        </div>
     </footer>
 </body>
 </html>
