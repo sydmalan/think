@@ -7,6 +7,7 @@
     <link rel="browser icon" href="images/favicon.ico">
     <title>Think</title>
     <link href="css/main.css" rel="stylesheet">
+    <script defer src="main.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="content">
@@ -30,46 +31,97 @@
         <button class="button_img" onclick="window.location.assign('test.html')"><img src="images/cart_white.png" alt="Shopping Cart"></button>
     </div>
     <header>
-        <ul>
-            <li> <a href="#">Explore</a></li>
-            <li> <a href="#">Shirts</a></li>
-            <li> <a href="#">Designs</a></li>
+        <div class="navbar">
+            <a href="#">Examples</a>
+            <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Products
+              <i class="fa fa-caret-down"></i>
+            </button>
+                <div class="dropdown-content" id="myDropdown">
+                <a href="#">Shirts</a>
+                <a href="#">Phone Cases</a>
+                <a href="#">Vinyl Decals</a>
+                </div>
+            </div> 
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+        </div>
+        <!-- <ul>
+            <li> <a href="#">Products</a></li>
+            <li> <a href="#">Examples</a></li>
+            <li> <a href="#">Pricing</a></li>
             <li> <a href="#">About Us</a></li>
-            <li> <a href="#">Questions</a></li>
-        </ul>
+            <li> <a href="#">FAQ</a></li>
+        </ul> -->
     </header>
 
-    <h1>You Think It We Ink It</h1>
-    <div>
-        <h2>Join The Email List</h2>
-        <!-- <form method="get" action="thankyou.html"> -->
-        <form method="get">
-            <label for="fname">First Name:</label>
-            <input type="text" name="firstname" id="fname" required> 
-            <label for="lname">Last Name:</label>
-            <input type="text" name="lastname" id="lname" required> 
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="example@email.com" required>
-            <!-- <label for="phone">Mobile Number:</label>
-            <input type="tel" name="cell" id="phone" required> -->
-            <input id="submit" type="submit" value="Join"> 
-        </form>
-    </div>
-    <div>
-        <a href="#"><img class="shirts" src="images/men2.jpeg" alt="Man in a grey shirt"></a>
-        <a href="#"><img class="shirts" src="images/women.jpeg" alt="Woman in a white shirt"></a>
-        <a href="#"><img class="shirts" src="images/youth2.jpeg" alt="Youth in a blue shirt"></a>
-        <a href="#"><img class="shirts" src="images/infant2.jpeg" alt="Man in a blue hoodie"></a>
-    </div>
+    <main>
+    <!-- <img id="banner_img" src="images/banner.png" alt="A banner for Think with a girl and a description of the site."> -->
+        <img id="banner_img" src="images/banner2.png" alt="A banner for Think with a girl and a description of the site.">
 
+        <!-- <p>Think is a customizable t-shirt shop located in the University Store. We serve students, faculty, community and offer services that are completely customizable to fit any personality. Think is great for sport teams, family reunions, class projects, gifts, or just for fun!</p> -->
+        <div>
+            <h2>Join The Email List</h2>
+            <!-- <form method="get" action="thankyou.html"> -->
+            <form method="get">
+                <label for="fname">*First Name:</label>
+                <input type="text" name="firstname" id="fname" required> 
+                <label for="lname">*Last Name:</label>
+                <input type="text" name="lastname" id="lname" required> 
+                <label for="email">*Email:</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                <label for="inumber">I-Number:</label>
+                <input type="text" name="inumber" id="inumber">
+                <!-- <label for="phone">Mobile Number:</label>
+                <input type="tel" name="cell" id="phone" required> -->
+                <input id="submit" type="submit" value="Join"> 
+            </form>
+        </div>
+        <div>
+            <a href="#"><img class="shirts" src="images/men2_web.jpg" alt="Man in a grey shirt"></a>
+            <a href="#"><img class="shirts" src="images/women_web.jpg" alt="Woman in a white shirt"></a>
+            <a href="#"><img class="shirts" src="images/youth2_web.jpg" alt="Youth in a blue shirt"></a>
+            <a href="#"><img class="shirts" src="images/infant2_web.jpg" alt="Man in a blue hoodie"></a>
+        </div>
+        <div>
+            <h3>1</h3>
+            <p>step one</p>
+            <h3>2</h3>
+            <p>step two</p>
+            <h3>3</h3>
+            <p>step three</p>
+            <h3>4</h3>
+            <p>step four</p>
+        </div>
 
+        <div>
+            <h2>Questions? Email us at thinkbyui@gmail.com or call at (208) 496-3412</h2>
+        </div>
+    </main>
 
     <footer>
         <!-- socials and links -->
-        <a href="#"><img class="social" src="images/facebook_logo.png" alt="Facebook logo in white"></a>
-        <a href="#"><img class="social" src="images/insta_logo.png" alt="Instagram logo in white"></a>
+        <h4>Contact Us</h4>
+        <a href="byuistore.com">University Store</a>
+        <a href="https://www.byuistore.com/store-hours">Store Hours</a>
+        <a href="https://www.byuistore.com/location">Location</a>
+        <a href="https://www.byuistore.com/contact-us">Contact Us</a>
 
+        <h4>Customer Service</h4>
+        <a href="https://www.byuistore.com/shipping-times">Shipping</a>
+        <a href="https://www.byuistore.com/returns-refunds">Returns & Refunds</a>
+        <a href="https://www.byuistore.com/sca-dev-2020-2-0/checkout.ssp?is=login&login=T&origin=customercenter#login-register">Receipts</a>
+    
+        <h4>Other</h4>
+        <a href="https://www.byuistore.com/sales-events">Sales & Events</a>
+        <a href="https://www.byuistore.com/student-employment">Student Employment</a>
+        <a href="https://www.byuistore.com/policies">Policies</a>
+    
         
+        <h4>Stay Connected</h4>
+        <a href="https://www.facebook.com/BYUISTORE/"><img class="social" src="images/facebook_logo.png" alt="Facebook logo in white"></a>
+        <a href="https://www.instagram.com/byuistore/"><img class="social" src="images/insta_logo.png" alt="Instagram logo in white"></a>
+
     </footer>
 </body>
 </html>
