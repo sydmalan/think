@@ -53,8 +53,13 @@ p{
 }
 
 #nav_info{
-   width: 95%;
-   margin: 0 auto;
+   /* width: 95%;
+   margin: 0 auto; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left: 35px;
+   padding-right: 40px;
 }
 
 #logo{
@@ -66,9 +71,11 @@ p{
 
 .mainLoginInput{
     height: 40px;
-    padding: 20px 300px 20px 10px;
+    width: 600px;
+    padding-left: 15px;
+    /* padding: 20px 300px 20px 10px; */
     font-size: 25px;
-    margin-left:270px;
+    /* margin-left:270px; */
     border-radius: 20px;
     border: none;
 }
@@ -116,6 +123,7 @@ header{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    align-items: center;
     gap: 30px;
     background-color: #1CA3DB;
 }
@@ -204,6 +212,14 @@ header{
     margin-left: 80px;
 }
 
+#shirts_header{
+    margin-top: -7px;
+    font-size: 40px;
+}
+
+#shirts_grid{
+    margin-top: -15px;
+}
 
 /* Parent Container */
 .content_img{
@@ -269,11 +285,13 @@ label{
     color: white;
     display: inline-block;
     text-align: left;
+    width: 100px;
 }
 form input{
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 70%;
+    width:250px;
+    /* width: 70%; */
     max-width: 350px;
     height: 30px;
 }
@@ -286,12 +304,13 @@ input[type='submit']{
     margin-top: 20px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
+
 }
 
 .box{
     display: inline-block;
     width: 425px;
-    height: 159px;
+    height: 214px;
     margin-top: 20px;
 }
 .hours{
@@ -302,7 +321,7 @@ input[type='submit']{
 #box_info li:nth-child(1){ 
     font-family: 'Staatliches'; 
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: white;
 }
 #box_info{
@@ -310,7 +329,18 @@ input[type='submit']{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    line-height: 34px;
+    line-height: 32px;
+    color: white;
+}
+#box_info li:nth-child(4){ 
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 500;
+}
+#box_info li:nth-child(5){ 
+    font-size: 15px;
+    margin-top: -5px;
     color: white;
 }
 
@@ -419,20 +449,103 @@ input[type='submit']{
 }
 
 /* FAQ */
-#faq_content{
-    width: 80%;
+/* Style the buttons that are used to open and close the accordion panel */
+#acc_content{
+    max-width: 85%;
     margin: 0 auto;
-    margin-bottom: 120px;
-    margin-top: 60px;
+    margin-top: 35px;
+    margin-bottom: 80px;
 }
-#faq_content h2{
-    margin-top: 40px;
+
+.accordion {
+    /* background-color: #eee; */
+    color: #0F3C5E;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
-}
-#faq_content p{
-    margin-top: -10px;
     font-size: 18px;
-    line-height: 30px;
+}
+
+.accordion:hover:nth-child(1){
+    background-color: #E81583;
+    color: white;
+}
+.accordion:hover:nth-child(3){
+    background-color: #FBDD00;
+    color: black;
+}
+.accordion:hover:nth-child(5){
+    background-color: #A63C96;
+    color: white;
+}
+.accordion:hover:nth-child(7){
+    background-color: #F48342;
+    color: white;
+}
+.accordion:hover:nth-child(9){
+    background-color: #0F3C5E;
+    color: white;
+}
+.accordion:hover:nth-child(11){
+    background-color: #E81583;
+    color: white;
+}
+.accordion:hover:nth-child(13){
+    background-color: #FBDD00;
+    color: black;
+}
+.accordion:hover:nth-child(15){
+    background-color: #A63C96;
+    color: white;
+}
+.accordion:hover:nth-child(17){
+    background-color: #F48342;
+    color: white;
+}
+.accordion:hover:nth-child(19){
+    background-color: #0F3C5E;
+    color: white;
+}
+.accordion:hover:nth-child(21){
+    background-color: #E81583;
+    color: white;
+}
+
+  
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 18px;
+}
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #0F3C5E; 
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 
