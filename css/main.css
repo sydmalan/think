@@ -547,10 +547,47 @@ input[type='submit']{
 
 
 /* PRICING */
-#ink_price{
-    max-width: 300px;
+#price_banner{
+    width:85%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
 }
+#pricing_grid{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+    gap: 33px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+#discounts{
+    grid-column: 1/2;
+    background-color: #F48342;
+    padding-top: 10px;
 
+}
+#outside_item{
+    grid-column: 2/3;
+    background-color: #F48342;
+    padding-top: 10px;
+}
+#discounts ul li{
+    list-style: none;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+
+}
+#outside_item ul li{
+    list-style: none;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+}
 
 
 /* UNISEX  */
