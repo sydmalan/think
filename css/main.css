@@ -199,6 +199,7 @@ header{
     grid-template-columns: 1fr 2fr;
     width: 95%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 #join{
@@ -487,7 +488,7 @@ input[type='submit']{
 }
 .accordion:hover:nth-child(7){
     background-color: #F48342;
-    color: white;
+    color: black;
 }
 .accordion:hover:nth-child(9){
     background-color: #0F3C5E;
@@ -507,7 +508,7 @@ input[type='submit']{
 }
 .accordion:hover:nth-child(17){
     background-color: #F48342;
-    color: white;
+    color: black;
 }
 .accordion:hover:nth-child(19){
     background-color: #0F3C5E;
