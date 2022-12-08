@@ -14,14 +14,6 @@ window.onclick = function(e) {
     }
 }
 
-// Shows the year for the copyright 
-let date = new Date();
-let year = date.getFullYear();
-
-document.querySelector('.year').textContent = year;
-
-
-
 // Accordion for the FAQ
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -37,3 +29,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// Shows the year for the copyright 
+let date = new Date();
+let year = date.getFullYear();
+
+document.querySelector('.year').textContent = year;
