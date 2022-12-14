@@ -288,6 +288,7 @@ label{
     text-align: left;
     width: 100px;
 }
+
 form input{
     margin-top: 5px;
     margin-bottom: 10px;
@@ -621,17 +622,15 @@ input[type='submit']{
 }
 #discounts{
     grid-column: 1/2;
-    background-color: #565656;
+    background-color: #F48342;
     padding-top: 10px;
-    color: white;
     margin-bottom: 20px;
 
 }
 #outside_item{
     grid-column: 2/3;
-    background-color: #565656;
+    background-color: #F48342;
     padding-top: 10px;
-    color: white;
     margin-bottom: 20px;
 }
 
