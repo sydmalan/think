@@ -1,16 +1,14 @@
 #shirt_header{
-    font-size: 50px;
-    font-size: 23px;
-    font-style: italic;
+    font-size: 30px;
     margin-left: 83px;
     margin-bottom: -5px;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 
 .check_box{
     margin-left: 83px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 
