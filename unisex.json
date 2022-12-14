@@ -1,0 +1,88 @@
+{
+    "unisex_shirts": [
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/6/3600_cool_blue.jpeg",
+            "brand": "Next Level",
+            "description": "Short Sleeve Crew",
+            "fabric": "100% Cotton",
+            "code": "3600"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/6/2/6210_cardinal.jpeg",
+            "brand": "Next Level",
+            "description": "Short Sleeve Crew",
+            "fabric": "60/40 Cotton/Poly",
+            "code": "6210"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/6/3605_red.jpeg",
+            "brand": "Next Level",
+            "description": "Short Sleeve Crew Pocket",
+            "fabric": "100% Cotton",
+            "code": "3605"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/0/300dark_greey_testing_.jpg",
+            "brand": "Bella + Canvas",
+            "description": "Short Sleeve Crew",
+            "fabric": "100% Cotton",
+            "code": "3001"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/6/3655_charcoal_marble_1_maxwidth_600_maxheight_900_ppi_300_quality_100.jpg",
+            "brand": "Bella + Canvas",
+            "description": "Short Sleeve V-Neck",
+            "fabric": "60/40 Cotton/Poly",
+            "code": "3655"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/2/0/2000_galapagos_blue.png",
+            "brand": "Gildan",
+            "description": "Short Sleeve Crew",
+            "fabric": "100% Cotton",
+            "code": "2000"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/6/3601_indigo.jpeg",
+            "brand": "Next Level",
+            "description": "Long Sleeve Crew",
+            "fabric": "100% Cotton",
+            "code": "3601"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/i/n/indigo.png",
+            "brand": "Next Level",
+            "description": "Long Sleeve Crew",
+            "fabric": "60/40 Cotton/Poly",
+            "code": "6211"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/c/h/charcoal_black_triblend.jpg",
+            "brand": "Bella + Canvas",
+            "description": "Long Sleeve Crew",
+            "fabric": "60/40 Cotton/Poly",
+            "code": "3513"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/2/4/2400_royal.png",
+            "brand": "Gildan",
+            "description": "Long Sleeve Crew",
+            "fabric": "100% Cotton",
+            "code": "2400"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/s/s/ss4500_alpinegreen.jpg",
+            "brand": "Independent Trading Co.",
+            "description": "Midweight Sweatshirt",
+            "fabric": "80/20 Cotton/Poly",
+            "code": "SS4500"
+        },
+        {
+            "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/1/8/18000_7545c_g2021_sd_0047_2.png",
+            "brand": "Gildan",
+            "description": "Crewneck Sweatshirt",
+            "fabric": "50/50 Cotton/Poly",
+            "code": "18000"
+        }
+    ]
+}
