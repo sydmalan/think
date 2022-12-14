@@ -551,46 +551,95 @@ input[type='submit']{
 
 
 /* PRICING */
-#price_banner{
+/* #price_banner{
     width:85%;
     margin: 0 auto;
     display: block;
     margin-top: 50px;
+} */
+#header_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 85%;
+    margin: 0 auto;
 }
-#pricing_grid{
+#header_grid h1{
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: -30px;
+}
+#pricing_grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 85%;
+    margin: 0 auto;
+    gap: 25px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+#price_img{
+    width: 450px;
+    grid-column: 1/2;
+}
+#ink_price{
+    grid-column: 2/3;
+    background-color: #565656;
+    color: white;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+#shirt_price{
+    grid-column: 3/4;
+    background-color: #565656;
+    color: white;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.price_header{
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+.small{
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 30px;
+    padding-bottom: 5px;
+}
+
+#pricing_grid2{
     display: grid;
     grid-template-columns: .5fr 1fr;
     max-width: 85%;
     margin: 0 auto;
-    gap: 33px;
+    gap: 25px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 #discounts{
     grid-column: 1/2;
-    background-color: #F48342;
+    background-color: #565656;
     padding-top: 10px;
+    color: white;
+    margin-bottom: 20px;
 
 }
 #outside_item{
     grid-column: 2/3;
-    background-color: #F48342;
+    background-color: #565656;
     padding-top: 10px;
+    color: white;
+    margin-bottom: 20px;
 }
-#discounts ul li{
-    list-style: none;
-    font-family: 'Asap Condensed', sans-serif;
-    font-weight: 300;
-    line-height: 30px;
-    font-size: 18px;
 
+#discounts ul h2{
+    font-size: 30px;
 }
-#outside_item ul li{
-    list-style: none;
-    font-family: 'Asap Condensed', sans-serif;
-    font-weight: 300;
-    line-height: 30px;
-    font-size: 18px;
+#outside_item ul h2{
+    font-size: 30px;
 }
 
 /* SHIRTS */
