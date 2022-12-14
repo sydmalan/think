@@ -390,12 +390,12 @@ input[type='submit']{
     margin-top: 20px;
 }
 .flex-child1{
-    grid-template-columns: 1/2fr;
+    grid-column: 1/2;
     margin-top: 40px;
 }
 
 .flex-child2{
-    grid-template-columns: 2/4fr;
+    grid-column: 2/4;
     margin-top: 22px;
 }
 
