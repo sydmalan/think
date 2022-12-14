@@ -11,7 +11,7 @@
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/6/2/6210_cardinal.jpeg",
             "brand": "Next Level",
             "description": "Short Sleeve Crew",
-            "fabric": "60/40 Cotton/Poly",
+            "fabric": "60% Cotton 40% Polyester",
             "code": "6210"
         },
         {
@@ -32,7 +32,7 @@
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/3/6/3655_charcoal_marble_1_maxwidth_600_maxheight_900_ppi_300_quality_100.jpg",
             "brand": "Bella + Canvas",
             "description": "Short Sleeve V-Neck",
-            "fabric": "60/40 Cotton/Poly",
+            "fabric": "60% Cotton 40% Polyester",
             "code": "3655"
         },
         {
@@ -53,14 +53,14 @@
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/6/4/6411-heatherforestgreen-finish.jpg",
             "brand": "Next Level",
             "description": "Long Sleeve Crew",
-            "fabric": "60/40 Cotton/Poly",
+            "fabric": "60% Cotton 40% Polyester",
             "code": "6411"
         },
         {
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/c/h/charcoal_black_triblend.jpg",
             "brand": "Bella + Canvas",
             "description": "Long Sleeve Crew",
-            "fabric": "60/40 Cotton/Poly",
+            "fabric": "60% Cotton 40% Polyester",
             "code": "3513"
         },
         {
@@ -74,14 +74,14 @@
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/720d1aad5997698950a4955ca83d8bd1/s/s/ss4500_alpinegreen.jpg",
             "brand": "Independent Trading Co.",
             "description": "Midweight Sweatshirt",
-            "fabric": "80/20 Cotton/Poly",
+            "fabric": "80% Cotton 20% Polyester",
             "code": "SS4500"
         },
         {
             "image": "https://eadn-wc03-1925772.nxedge.io/cdn/pub/media/catalog/product/cache/019d3acb9052ccb2cf1cc47d5e1d5241/c/a/carolina_blue-18000-659c_a1.jpg",
             "brand": "Gildan",
             "description": "Crewneck Sweatshirt",
-            "fabric": "50/50 Cotton/Poly",
+            "fabric": "50% Cotton 50% Polyester",
             "code": "18000"
         }
     ]

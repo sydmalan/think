@@ -20,21 +20,21 @@ get_unisex(requestURL);
 function display_unisex(item){
     let card = document.createElement('section');
     let img = document.createElement('img');
-    let brand = document.createElement('p');
-    let desc = document.createElement('p');
+    let brand = document.createElement('h2');
+    let desc = document.createElement('h1');
     let fabric = document.createElement('p');
     let code = document.createElement('p');
 
     img.setAttribute('src', item.image);
     img.setAttribute('alt', item.brand + ' ' + item.desc);
-    brand.textContent = item.brand;
     desc.textContent = item.description;
+    brand.textContent = item.brand;
     fabric.textContent = item.fabric;
     code.textContent = item.code;
 
     card.appendChild(img);
-    card.appendChild(brand);
     card.appendChild(desc);
+    card.appendChild(brand);
     card.appendChild(fabric);
     card.appendChild(code);
 

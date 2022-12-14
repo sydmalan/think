@@ -1,29 +1,114 @@
+#shirt_header{
+    font-size: 50px;
+    font-size: 23px;
+    font-style: italic;
+    margin-left: 83px;
+    margin-bottom: -5px;
+    padding-top: 25px;
+
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    padding-bottom: 60px;
 }
 
 .cards section {
-    border: 1px solid navy;
-    background-color: lightblue;
-    padding: 30px;
+    border: 2px solid #565656;
+    /* background-color: lightblue; */
+    padding: 20px;
     text-align: center;
     width: 300px;
     margin: 20px;
 }
 
-h2, h1 {
-    color: navy;
-    text-align: center;
+.cards h1{
+    font-size: 25px;
+}
+.cards h2{
+    font-size: 20px;
+    margin-top: -18px;
+    margin-bottom: 25px;
+}
+.cards p{
+    margin-top: -12px;
 }
 
-img {
+.cards img {
     width: 90%;
+    /* border: 1px solid #565656; */
+    margin: 0 auto;
 }
 
-footer{
-    text-align: center;
-    margin-top:10px;
+.cards img:hover{
+    cursor: pointer;
 }
+
+.cards section:nth-child(1):hover {
+    visibility: visible;
+    background-color: #E81583;
+}
+.cards section:nth-child(2):hover {
+    visibility: visible;
+    background-color: #FBDD00;
+}
+.cards section:nth-child(3):hover {
+    visibility: visible;
+    background-color: #A63C96;
+    color: white;
+}
+.cards section:nth-child(4):hover {
+    visibility: visible;
+    background-color: #F48342;
+}
+.cards section:nth-child(5):hover {
+    visibility: visible;
+    background-color: #0F3C5E;
+    color: white;
+}
+.cards section:nth-child(6):hover {
+    visibility: visible;
+    background-color: #E81583;
+}
+.cards section:nth-child(7):hover {
+    visibility: visible;
+    background-color: #FBDD00;
+}
+.cards section:nth-child(8):hover {
+    visibility: visible;
+    background-color: #A63C96;
+    color: white;
+}
+.cards section:nth-child(9):hover {
+    visibility: visible;
+    background-color: #F48342;
+}
+.cards section:nth-child(10):hover {
+    visibility: visible;
+    background-color: #0F3C5E;
+    color: white;
+}
+.cards section:nth-child(11):hover {
+    visibility: visible;
+    background-color: #E81583;
+}
+.cards section:nth-child(12):hover {
+    visibility: visible;
+    background-color: #FBDD00;
+}
+
+/* .shirts_img:hover{
+    cursor: pointer;
+} */
+
+/* .shirts_img:nth-child(1):hover div{
+    width: 145px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+    background-color: #E81583;
+} */
+
