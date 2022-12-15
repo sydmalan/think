@@ -1,0 +1,275 @@
+@media screen and (min-width: 650px){
+
+#content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#logo{
+    max-width: 60px;
+    margin-top:10px;
+}
+    
+.mainLoginInput{
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+}
+.mainLoginInput::-webkit-input-placeholder { 
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: black;
+}
+
+#search_icon{
+    display: none;
+}
+
+#banner_img{
+    max-width: 100%;
+    margin-top: 30px;
+    display: block;
+}
+#phone_banner_img{
+    display: none;
+}
+
+#pricing_grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#test{
+    grid-column: 1/2;
+}
+
+
+#thankyou{
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+}
+
+
+form {
+    margin-top: 40px;
+    background-color: #565656;
+    padding: 5px 35px 30px 30px;
+    width: 380px;
+    /* border-radius: 10px; */
+}
+form p{
+    margin-top: -20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+form h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+label{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+
+form input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width:250px;
+    /* width: 70%; */
+    max-width: 350px;
+    height: 30px;
+}
+input[type='submit']{ 
+    display: block;
+    height: 35px; 
+    width: 30%;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+
+.box{
+    display: inline-block;
+    width: 425px;
+    height: 214px;
+    margin-top: 20px;
+}
+.hours{
+    background-color: black;
+    padding:10px;
+}
+
+#box_info li:nth-child(1){ 
+    font-family: 'Staatliches'; 
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+#box_info{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+#box_info li:nth-child(4){ 
+    font-size: 18px;
+    margin-top: 15px;
+    color: white;
+    font-weight: 500;
+}
+#box_info li:nth-child(5){ 
+    font-size: 15px;
+    margin-top: -5px;
+    color: white;
+}
+
+
+
+#steps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 120px;
+    gap:30px;
+}
+
+#num1{
+    grid-row: 1/2;
+}
+#num3{
+    grid-row: 2/3; 
+}
+#num2{
+    grid-row: 1/2;
+}
+#num4{
+    grid-row: 2/3;
+}
+
+#steps_1{
+    grid-column: 1/2;
+}
+
+#steps_2{
+    grid-column: 2/3;
+}
+
+.num{
+    max-width: 100px;
+}
+
+.flex-container{
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    margin-top: 20px;
+}
+.flex-child1{
+    grid-column: 1/2;
+    margin-top: 40px;
+}
+
+.flex-child2{
+    grid-column: 2/4;
+    margin-top: 22px;
+}
+
+.flex-child2 h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.flex-child2 p{
+    margin-top: -15px;
+}
+
+
+#footer_grid{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 40px 20px 50px 20px;
+    
+}
+
+footer ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.main_bullet{
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Asap Condensed', sans-serif;
+    margin-bottom: 18px; 
+    list-style: none
+}
+
+.social{
+    max-width: 40px;
+    margin-right:10px;
+    margin-top: -10px;
+
+    /* float: right;
+    margin-right: 60px; */
+}
+
+#contact_us{
+    grid-column: 1/2;
+}
+#cust_service{
+    grid-column: 2/3; 
+}
+#other{
+    grid-column: 3/4;
+}
+#stay_connected{
+    grid-column: 4/5;
+}
+#stay_connected ul li{
+    display:inline-block;
+}
+
+#footer_info{
+    color: white;
+    background-color:#565656;
+    padding: 1px;
+    max-height: 55px;
+}
+
+#footer_info p{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+
+}

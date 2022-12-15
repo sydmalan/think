@@ -1,3 +1,14 @@
+// const hamburgerBtn = document.querySelector('.ham');
+// const navigation = document.querySelector('.navigation')
+
+// function toggleMenu() {
+//     navigation.classList.toggle('responsive');
+//     hamburgerBtn.classList.toggle('responsive');
+// }
+
+// hamburgerBtn.addEventListener('click', toggleMenu, false);
+
+
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
